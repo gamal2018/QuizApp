@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollStyle"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout style="@style/mainLinear">
+
+        <TextView
+            style="@style/header"
+            android:text="@string/android_basics_exam" />
+
+        <EditText
+            android:id="@+id/Name"
+            style="@style/name"
+            android:hint="@string/plzEnterName" />
+
+        <!-- Question 1 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_1" />
+
+        <LinearLayout style="@style/linear1">
+
+            <EditText
+                android:id="@+id/Q1_EditText"
+                style="@style/q1EditText" />
+
+            <TextView
+                style="@style/q1TextStyle"
+                android:text="@string/q1Text" />
+        </LinearLayout>
+
+        <!-- Question 2 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_2" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q2Text" />
+
+        <RadioGroup style="@style/radioGroupStyleH">
+
+            <RadioButton
+                android:id="@+id/Q2_a_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q2_a" />
+
+            <RadioButton
+                android:id="@+id/Q2_b_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q2_b" />
+
+            <RadioButton
+                android:id="@+id/Q2_c_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q2_c" />
+
+            <RadioButton
+                android:id="@+id/Q2_d_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q2_d" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_3" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q3Text" />
+
+        <LinearLayout style="@style/linear1">
+
+            <LinearLayout style="@style/linear2">
+
+                <CheckBox
+                    android:id="@+id/Q3_a_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q3_a" />
+
+                <CheckBox
+                    android:id="@+id/Q3_b_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q3_b" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear2">
+
+                <CheckBox
+                    android:id="@+id/Q3_c_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q3_c" />
+
+                <CheckBox
+                    android:id="@+id/Q3_d_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q3_d" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Question 4 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_4" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q4Text" />
+
+        <RadioGroup style="@style/radioGropStyleV">
+
+            <RadioButton
+                android:id="@+id/Q4_a_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q4_a" />
+
+            <RadioButton
+                android:id="@+id/Q4_b_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q4_b" />
+
+            <RadioButton
+                android:id="@+id/Q4_c_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q4_c" />
+
+            <RadioButton
+                android:id="@+id/Q4_d_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q4_d" />
+
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_5" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q5Text" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q5Text2" />
+
+        <RadioGroup style="@style/radioGroupStyleH">
+
+            <RadioButton
+                android:id="@+id/Q5_a_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q5_a" />
+
+            <RadioButton
+                android:id="@+id/Q5_b_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q5_b" />
+
+            <RadioButton
+                android:id="@+id/Q5_c_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q5_c" />
+
+            <RadioButton
+                android:id="@+id/Q5_d_radio_button"
+                style="@style/radio_button"
+                android:text="@string/q5_d" />
+
+        </RadioGroup>
+
+        <!-- Question 6 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_6" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q6Text" />
+
+        <EditText
+            android:id="@+id/Q6_EditText"
+            style="@style/editText2" />
+
+        <!-- Question 7 -->
+        <TextView
+            style="@style/questionHeader"
+            android:text="@string/question_7" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/q7Text" />
+
+        <LinearLayout style="@style/linear1">
+
+            <LinearLayout style="@style/linear2">
+
+                <CheckBox
+                    android:id="@+id/Q7_a_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_a" />
+
+                <CheckBox
+
+                    android:id="@+id/Q7_b_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_b" />
+
+                <CheckBox
+                    android:id="@+id/Q7_c_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_c" />
+
+                <CheckBox
+                    android:id="@+id/Q7_d_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_d" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear2">
+
+                <CheckBox
+                    android:id="@+id/Q7_e_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_e" />
+
+                <CheckBox
+                    android:id="@+id/Q7_f_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_f" />
+
+                <CheckBox
+                    android:id="@+id/Q7_g_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_g" />
+
+                <CheckBox
+                    android:id="@+id/Q7_h_checkbox"
+                    style="@style/Check_Box"
+                    android:text="@string/q7_h" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearH2">
+
+            <Button
+                style="@style/button"
+                android:layout_marginRight="8dp"
+                android:onClick="showScore"
+                android:text="@string/submit" />
+
+            <Button
+                style="@style/button"
+                android:onClick="resetScore"
+                android:text="@string/reset" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Educational App</string>
+    <string name="plzEnterName">Please Enter Your name</string>
+    <string name="excellent">\t Excellent! you achieve the fullmark :</string>
+    <string name="_7">/7</string>
+    <string name="score_is">\t score is :</string>
+    <string name="android_basics_exam">Android basics exam</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_5">Question 5</string>
+    <string name="question_6">Question 6</string>
+    <string name="question_7">Question 7</string>
+    <string name="q1Text">is a data type to store a sequence of characters.</string>
+    <string name="q2Text">What is the value stored in result ? (result = 6/2*3)</string>
+    <string name="q2_a">1.2</string>
+    <string name="q2_b">9</string>
+    <string name="q2_c">1</string>
+    <string name="q2_d">0</string>
+    <string name="q3Text">Which of them is a data type ?</string>
+    <string name="q3_a">class</string>
+    <string name="q3_b">public</string>
+    <string name="q3_c">boolean</string>
+    <string name="q3_d">char</string>
+    <string name="q4Text">What Java method gets you the text that the user entered ?</string>
+    <string name="q4_a">editText()</string>
+    <string name="q4_b">setText()</string>
+    <string name="q4_c">getText()</string>
+    <string name="q4_d">text()</string>
+    <string name="q5Text">What is the return data type of calculateAge method ?</string>
+    <string name="q5Text2">String yourAge = calculateAge(21,1,1988);</string>
+    <string name="q5_a">String</string>
+    <string name="q5_b">int</string>
+    <string name="q5_c">char</string>
+    <string name="q5_d">void</string>
+    <string name="q6Text">What the two states for storing information in a boolean ?</string>
+    <string name="q7Text">Select the attribute(s) you need to style the text to be ( Color:white , 16sp , bold )</string>
+    <string name="q7_a">background</string>
+    <string name="q7_b">textStyle</string>
+    <string name="q7_c">text</string>
+    <string name="q7_d">textColor</string>
+    <string name="q7_e">scaleType</string>
+    <string name="q7_f">textAlignment</string>
+    <string name="q7_g">textSize</string>
+    <string name="q7_h">fontFamily</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+</resources>
